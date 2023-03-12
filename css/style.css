@@ -121,11 +121,16 @@ button {
     color: #0d7735;
 } 
 
+.subrayado {
+    background-color: #FFAFCC;
+}
+
+
+/********** banner **********/
 #banner {
     background-size: cover;
 }
 
-/********** banner **********/
 #banner header {
     background-color: #0d7735;
     height: 85px;
