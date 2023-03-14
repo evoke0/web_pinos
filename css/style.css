@@ -31,7 +31,7 @@ button {
 
 .atlas-cta:hover {
     text-decoration: none;
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
 }
 
 .atlas-cta-wide {
@@ -54,8 +54,9 @@ button {
 }
 
 .cta-blue:hover {
-    color: #ffffff;
-    background: #023047;
+    color: #023047;
+    background: #d3d3d3;
+    border: 1px solid #023047;
 }
 
 .parrafo {
@@ -105,9 +106,10 @@ button {
 } 
 
 .nav-menu:hover {
-    text-decoration: none;
+    /* text-decoration: none; */
     background-color: #219EBC;
-    border-radius: 10px;
+    border-radius: 22px;
+    color: black;
 } 
 
 .subrayado {
@@ -225,6 +227,11 @@ button {
 
 #precio ul li {
     padding: 5px 0;
+}
+
+.condicion {
+    display: flex;
+    justify-content: center;
 }
 
 /********** contact **********/
