@@ -8,6 +8,10 @@ h2 {
     font-weight: 700;
 }
 
+.italic {
+    font-style: italic;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -252,6 +256,15 @@ button {
     background: transparent;
     border: 1px solid #00FFAD;
     color: #ffffff;
+}
+
+.medio-contacto {
+    color: rgb(187, 187, 187);
+}
+
+.medio-contacto:hover {
+    text-decoration: none;
+    color: rgb(98, 126, 145);
 }
 
 /********** copyright **********/
