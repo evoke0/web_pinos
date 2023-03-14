@@ -49,23 +49,13 @@ button {
 }
 
 .cta-blue {
-    background: #192440;
+    background: #023047;
     color: #ffffff;
 }
 
 .cta-blue:hover {
     color: #ffffff;
-    background: #121a2e;
-}
-
-.cta-ghost {
-    border: 2px solid #192440 !important;
-    color: #192440;
-}
-
-.cta-ghost:hover {
-    color: #ffffff;
-    background: #121a2e;
+    background: #023047;
 }
 
 .parrafo {
@@ -109,31 +99,29 @@ button {
 
 .nav-menu {
     font-size: 1.25rem;
-    font-weight: 300; 
+    font-weight: 500; 
     text-decoration: none; 
     color: black;
 } 
 
 .nav-menu:hover {
-    font-size: 1.25rem;
-    font-weight: 300; 
-    text-decoration: none; 
-    /* color: #0d7735; */
+    text-decoration: none;
+    background-color: #219EBC;
+    border-radius: 10px;
 } 
 
 .subrayado {
-    background-color: #FFAFCC;
+    color: #219EBC;
 }
-
 
 /********** banner **********/
 #banner {
     background-size: cover;
-    padding-top: 0;
+    padding: 0 0 2rem 0;
 }
 
 #banner header {
-    /* background-color: #0d7735; */
+    background-color: rgba(142, 202, 230, 0.3);
     height: 85px;
     display: flex;
     align-items: center;
@@ -280,7 +268,7 @@ button {
 }
 
 #copyright #social-media a:hover {
-    background: #0d7735;
+    background: #023047;
 }
 
 #copyright #social-media a:hover i {
@@ -291,5 +279,9 @@ button {
 @media (max-width: 575px) {
     #banner h1 {
         font-size: 3.6rem;
+    }
+
+    .logo-and {
+        max-width: 45%;
     }
 }
