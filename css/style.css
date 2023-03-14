@@ -111,14 +111,14 @@ button {
     font-size: 1.25rem;
     font-weight: 300; 
     text-decoration: none; 
-    color: #fff;
+    color: black;
 } 
 
 .nav-menu:hover {
     font-size: 1.25rem;
     font-weight: 300; 
     text-decoration: none; 
-    color: #0d7735;
+    /* color: #0d7735; */
 } 
 
 .subrayado {
@@ -129,18 +129,15 @@ button {
 /********** banner **********/
 #banner {
     background-size: cover;
+    padding-top: 0;
 }
 
 #banner header {
-    background-color: #0d7735;
+    /* background-color: #0d7735; */
     height: 85px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-
-#banner header img {
-    max-width: 80px;
+    justify-content: center;
 }
 
 .hamburguesa {
@@ -158,7 +155,7 @@ button {
     margin: 0 5px;
 }
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
     .hamburguesa {
         display: block;
         cursor: pointer;
@@ -203,7 +200,7 @@ button {
         margin-bottom: 12px;
     }
 
-}
+} */
 
 .display-3{
     display: flex;
