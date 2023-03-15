@@ -111,7 +111,7 @@ button {
 
 .nav-menu:hover {
     /* text-decoration: none; */
-    background-color: #219EBC;
+    background-color: #c1c1c145;
     border-radius: 22px;
     color: black;
 } 
@@ -211,7 +211,7 @@ button {
 }
 
 #estatutos {
-    background: linear-gradient(168deg, #ffffff 55%, #0d7735 0);
+    background: linear-gradient(168deg, #ffffff 55%, #219EBC 0);
 }
 
 #feature-last {
