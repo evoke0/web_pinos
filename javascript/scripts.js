@@ -7,5 +7,5 @@ const asociarse = document.getElementById("asociarse");
 // })
 
 asociarse.addEventListener("click", () => {
-    alert("Por favor, siga las instrucciones descritas en el ANEXO para rellenar el formulario.\n\nUna vez completado, envíelo mediante correo electrónico a la dirección indicada en el margen superior derecho o entréguelo en la sede.");
+    alert("Por favor, siga las instrucciones descritas en el ANEXO para rellenar el formulario.\n\nUna vez completado, envíelo mediante correo electrónico a la dirección indicada en el margen superior derecho o entréguelo en la sede; en ambos casos deberá presentarse en el recinto para firmar el documento.");
 })
